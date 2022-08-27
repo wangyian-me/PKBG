@@ -1,6 +1,6 @@
 # PLAYER KNOWN’S BATTLEGROUNDS
 
-This is a course project of Algorithm Design and Analysis. (May 2021 - June 2021)
+This is a course project of Algorithm Design and Analysis cooperate with [Zhehuan Chen](https://acmlczh.github.io/). (May 2021 - June 2021)
 
 Generally speaking, we designed the enviroment and task that contain two agant with competition.
 We want to see what interesting strategies they will learn by implementing TD3 reinforcement learning for both agent.
