@@ -1,0 +1,4 @@
+torch		1.8.1
+cudatoolkit	9.2
+torchvision	0.8.2
+numpy		1.19.5
