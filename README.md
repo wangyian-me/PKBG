@@ -36,12 +36,11 @@ We want to see what interesting strategies they will learn by implementing TD3 r
 We fail to directly train these two agent adversarially, and it would be a waste of resources. So we wrote an expert for Player 1 and apply behavior clone to start off the training.
 In detail, we first BC our expert with actor in TD3, then we fix the actor and train the critic solely network until coverage. And this is the result we get after BC the expert of Player 1.
 
-![result_BC1](/pic/imit1.gif)
-
 ### Step 2 Train Player 2 solely
 
 After 250 epoch training, Player 2 was able to win 90 percents of games against the expert we build.
 
+![result_BC1](/pic/imit1.gif)
 ![result_player2](/pic/imit2.gif)
 
 ### Step 3 adversarial training
